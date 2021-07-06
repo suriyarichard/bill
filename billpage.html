@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>billpage</title>
+</head>
+<style>
+    .billpdf{
+    height:20cm;
+    width:20cm;
+}
+table{
+    display:flex;
+    justify-content:space-between;
+}
+td{
+    text-align:right;
+}
+.hr{
+    margin-top: 3em;
+    width: 100%;
+    border-bottom: 2px solid #cccc;
+}
+table,tr,td ,th{
+    border: 1px solid black;
+    border-collapse:collapse;
+    /* height: 100%; */
+} 
+th, td {
+    padding: 10px;
+    text-align: left;    
+}
+.bank address{
+    width:35%;
+}
+.main{
+    display: flex;
+    flex-direction:row-reverse;
+}
+</style>
+<body>
+    <div class="billpdf">
+        <table>
+            <tr>
+                <td class="meta">
+                    <address>#82, Karungalpatty Main Road, Near Veeralakshmi School,
+                    Gugai, Salem-636 006. TN. India.
+                    Mobile : 73730 46674.
+                    E-mail : designpark2007@gmail.com</address>
+                </td>
+            </tr>
+        </table>
+        <div class="pan">
+            <td>
+                    <p>PAN NO : AUTPN4046L</p>
+                    <p>GSTIN : 33AUTPN4046L2Z3</p>
+            </td>
+        </div>
+            <div class="hr"></div>
+        <table>
+            <tr>
+                <address>
+                Mrs.Habiraami Nivas
+    Salem Tours And Travels P Limited
+    30, Chamundi Complex, 4 Roads
+    Salem, Tamil Nadu 636007. India
+            </address>
+            <p>GSTIN : 33AUTPN4046L2Z3</p>
+            </tr>
+            
+            <tr>
+                <th rowspan="3">ADVERTISEMENT BILL</th>
+                <td>
+                    While Making Remittance, Please Quote
+                </td>
+                <td>
+                    <p>Bill No : 53
+                        Bill Date :15.02.2021
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tbody>
+                <tr>
+                    <td>CATEGORY : Classified Display</td>
+                    <td>HEADING : Tours & Travels</td>
+                    <td>CLIENT NAME : Salem Tours And Travels P Limited</td>
+                </tr>
+            </tbody>
+            <tr>
+                <td>R.O.NO : 350</td>
+                <td>R.O.DATE :13.02.2021</td>
+                <td>Key .NO : </td>
+            </tr>
+        </table>
+    
+    
+        <!-- PRODUCT DETAILS -->
+        <div class="product">
+            <table>
+                <tr>
+                    <th>PAPER</th>
+                    <th>EDITION</th>
+                    <th>POSITION</th>
+                    <th>SCEHME</th>
+                    <th>DATE</th>
+                    <th>SIZE
+                        in Sqcm</th>
+                    <th>RATE</th>
+                    <th>COLOR</th>
+                    <th>AMOUNT</th>
+                </tr>
+                <tr>
+                    <td>Daily Thanthi</td>
+                    <td>SNDK</td>
+                    <td>Display</td>
+                    <td>5+2</td>
+                    <td>17.02.2021</td>
+                    <td>35</td>
+                    <td>Rs.31/-</td>
+                    <td>25%</td>
+                    <td>6781.25</td>
+                </tr>
+                <tr>
+                    <td>Daily Thanthi</td>
+                    <td>SNDK</td>
+                    <td>Display</td>
+                    <td>5+2</td>
+                    <td>17.02.2021</td>
+                    <td>35</td>
+                    <td>Rs.31/-</td>
+                    <td>25%</td>
+                    <td>6781.25</td>
+                </tr>
+            </table>
+        </div>
+    
+        <!-- Bank deatils -->
+        <div class="bank">
+                <table>
+                    <tr>
+                        <th rowspan="2" style="text-align:left;">
+                            <div class="main">
+                                Name      : Design Park Ad<br>
+                                Bank Name : Karur Vysya Bank<br>
+                                Branch    : Swarnapuri<br>
+                                A/c No.   : 1246135000008646<br>
+                                IFSC Code : KVBL0001246<br>
+                            <p>
+                                Amount Before GST
+                                Discount 10%<br>
+                                SGST(2.5%) : 152.58}<br>
+                                CGST (2.5%) : 152.58 }
+                            </p>
+                            </div>
+                        </th>
+                        <td>6781.25
+                            <p>302.45</p>
+                        </td>
+                    </tr>
+                    <td>6781.25
+                        <p>305.20</p>
+                    </td>
+                </table>
+        </div>
+    </div>
+</body>
+</html>
